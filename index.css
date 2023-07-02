@@ -14,7 +14,8 @@ body {
   background-color: var(--main-bg-color);
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  align-items: center;
+  flex-flow: column wrap;
   font-family: Georgia, serif;
   text-transform: lowercase;
   color: var(--main-text-color);
@@ -30,6 +31,10 @@ body {
   display: flex;
   margin-top: 150px;
   text-shadow: #858ebc -2px 2px 8px;
+}
+
+.output {
+  font-style: italic;
 }
 
 .container {

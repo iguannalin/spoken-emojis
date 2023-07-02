@@ -50,10 +50,9 @@ window.addEventListener("load", () => {
       if (!word) return;
       word = word.toLowerCase();
       const found = Object.keys(emojis).filter(key => {return key.startsWith(word) || key.includes(word)});
-      let x = getRandomEmojiFromKey(found);
-      console.log({word, found, x});
+      // console.log({word, found});
       if (found.length > 0) {
-        searchResults[index] = x
+        searchResults[index] = getRandomEmojiFromKey(found);
       }
     });
     if (input.length < 1) setText(0);
@@ -86,6 +85,7 @@ window.addEventListener("load", () => {
 
   document.body.onclick = function() {
     recognition.start();
+    diagnostic.textContent = ".......";
     console.log('Ready to receive a command.');
   }
 
