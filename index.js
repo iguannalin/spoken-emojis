@@ -7,22 +7,28 @@ window.addEventListener("load", () => {
     "cat":"🐈","black cat":"🐈‍⬛","lion":"🦁","tiger face":"🐯","tiger":"🐅","leopard":"🐆","horse face":"🐴","horse":"🐎","unicorn":"🦄","zebra":"🦓","donkey":"🫏","deer":"🦌","moose":"🫎","bison":"🦬","cow face":"🐮","ox":"🐂","water buffalo":"🐃","cow":"🐄","pig face":"🐷","pig":"🐖","boar":"🐗","pig nose":"🐽","ram":"🐏","ewe":"🐑","goat":"🐐","camel":"🐪","two-hump camel":"🐫","llama":"🦙","giraffe":"🦒","elephant":"🐘","mammoth":"🦣","rhinoceros":"🦏","hippopotamus":"🦛","mouse face":"🐭","mouse":"🐁","rat":"🐀","hamster":"🐹","rabbit face":"🐰","rabbit":"🐇","chipmunk":"🐿️","beaver":"🦫","hedgehog":"🦔","bat":"🦇","bear":"🐻","polar bear":"🐻‍❄️","koala":"🐨","panda":"🐼","sloth":"🦥","otter":"🦦","skunk":"🦨","kangaroo":"🦘","badger":"🦡","paw prints":"🐾","turkey":"🦃","chicken":"🐔","rooster":"🐓","hatching chick":"🐣","baby chick":"🐤","front-facing baby chick":"🐥","bird":"🐦","black bird":"🐦‍⬛","penguin":"🐧","dove":"🕊️",
     "eagle":"🦅","duck":"🦆","swan":"🦢","goose":"🪿","owl":"🦉","dodo":"🦤","wing":"🪽","feather":"🪶","flamingo":"🦩","peacock":"🦚","parrot":"🦜","frog":"🐸","crocodile":"🐊","turtle":"🐢","lizard":"🦎","snake":"🐍","dragon face":"🐲","dragon":"🐉","sauropod":"🦕","t-rex":"🦖","spouting whale":"🐳","whale":"🐋","dolphin":"🐬","seal":"🦭","fish":"🐟","tropical fish":"🐠","blowfish":"🐡","shark":"🦈","octopus":"🐙","jellyfish":"🪼","spiral shell":"🐚","coral":"🪸","snail":"🐌","butterfly":"🦋","bug":"🐛","ant":"🐜","honeybee":"🐝","beetle":"🪲","lady beetle":"🐞","cricket":"🦗","cockroach":"🪳","spider":"🕷️","spider web":"🕸️","scorpion":"🦂","mosquito":"🦟","fly":"🪰","worm":"🪱","microbe":"🦠","bouquet":"💐","cherry blossom":"🌸","white flower":"💮","lotus":"🪷","rosette":"🏵️","rose":"🌹","wilted flower":"🥀","hibiscus":"🌺","hyacinth":"🪻","sunflower":"🌻","blossom":"🌼","tulip":"🌷","seedling":"🌱","potted plant":"🪴","evergreen tree":"🌲",
     "deciduous tree":"🌳","palm tree":"🌴","cactus":"🌵","sheaf of rice":"🌾","herb":"🌿","shamrock":"☘️","four leaf clover":"🍀","maple leaf":"🍁","fallen leaf":"🍂","leaf fluttering in wind":"🍃","empty nest":"🪹","nest with eggs":"🪺","mushroom":"🍄","chestnut":"🌰","crab":"🦀","lobster":"🦞","shrimp":"🦐","squid":"🦑","globe showing europe-africa":"🌍","globe showing americas":"🌎","globe showing asia-australia":"🌏","globe with meridians":"🌐","rock":"🪨","new moon":"🌑","waxing crescent moon":"🌒","first quarter moon":"🌓","waxing gibbous moon":"🌔","full moon":"🌕","waning gibbous moon":"🌖","last quarter moon":"🌗","waning crescent moon":"🌘","crescent moon":"🌙","new moon face":"🌚","first quarter moon face":"🌛","last quarter moon face":"🌜","full moon face":"🌝","sun with face":"🌞","star":"⭐","glowing star":"🌟","shooting star":"🌠","cloud":"☁️","sun behind cloud":"⛅","cloud with lightning and rain":"⛈️","sun behind small cloud":"🌤️",
-    "sun behind large cloud":"🌥️","sun behind rain cloud":"🌦️","cloud with rain":"🌧️","cloud with snow":"🌨️","cloud with lightning":"🌩️","tornado":"🌪️","fog":"🌫️","wind face":"🌬️","rainbow":"🌈","snowman without snow":"⛄","comet":"☄️","fire":"🔥","droplet":"💧","water wave":"🌊","christmas tree":"🎄","sparkles":"✨","tanabata tree":"🎋","pine decoration":"🎍"
+    "sun behind large cloud":"🌥️","sun behind rain cloud":"🌦️","cloud with rain":"🌧️","cloud with snow":"🌨️","cloud with lightning":"🌩️","tornado":"🌪️","fog":"🌫️","wind face":"🌬️","rainbow":"🌈","snowman without snow":"⛄","comet":"☄️","fire":"🔥","droplet":"💧","water wave":"🌊","christmas tree":"🎄","sparkles":"✨","tanabata tree":"🎋","pine decoration":"🎍",
+    "kiss mark":"💋","waving hand":"👋","raised back of hand":"🤚","hand with fingers splayed":"🖐️","raised hand":"✋","vulcan salute":"🖖","rightwards hand":"🫱","leftwards hand":"🫲","palm down hand":"🫳","palm up hand":"🫴","ok hand":"👌","pinched fingers":"🤌","pinching hand":"🤏","victory hand":"✌️","crossed fingers":"🤞","hand with index finger and thumb crossed":"🫰","love-you gesture":"🤟","sign of the horns":"🤘","call me hand":"🤙","backhand index pointing left":"👈","backhand index pointing right":"👉","backhand index pointing up":"👆","middle finger":"🖕","backhand index pointing down":"👇","index pointing up":"☝️","index pointing at the viewer":"🫵","thumbs up":"👍","thumbs down":"👎","raised fist":"✊","oncoming fist":"👊","left-facing fist":"🤛","right-facing fist":"🤜","clapping hands":"👏","raising hands":"🙌","heart hands":"🫶",	
+    "open hands":"👐","palms up together":"🤲","handshake":"🤝","folded hands":"🙏","nail polish":"💅","selfie":"🤳","flexed biceps":"💪","mechanical arm":"🦾","mechanical leg":"🦿","leg":"🦵","foot":"🦶","ear":"👂","ear with hearing aid":"🦻","nose":"👃","brain":"🧠","anatomical heart":"🫀","lungs":"🫁","tooth":"🦷","bone":"🦴","eyes":"👀","eye":"👁️","tongue":"👅","mouth":"👄","biting lip":"🫦","baby":"👶","child":"🧒","boy":"👦","girl":"👧","person":"🧑","person: blond hair":"👱","man":"👨","person: beard":"🧔","man: red hair":"👨‍🦰","man: curly hair":"👨‍🦱","man: white hair":"👨‍🦳","man: bald":"👨‍🦲","woman":"👩","woman: red hair":"👩‍🦰","person: red hair":"🧑‍🦰","woman: curly hair":"👩‍🦱","person: curly hair":"🧑‍🦱","woman: white hair":"👩‍🦳","person: white hair":"🧑‍🦳","woman: bald":"👩‍🦲","person: bald":"🧑‍🦲","woman: blond hair":"👱‍♀️","man: blond hair":"👱‍♂️","older person":"🧓","old man":"👴",	
+    "old woman":"👵","person frowning":"🙍","man frowning":"🙍‍♂️","woman frowning":"🙍‍♀️","person pouting":"🙎","man pouting":"🙎‍♂️","woman pouting":"🙎‍♀️","person gesturing no":"🙅","man gesturing no":"🙅‍♂️","woman gesturing no":"🙅‍♀️","person gesturing ok":"🙆","man gesturing ok":"🙆‍♂️","woman gesturing ok":"🙆‍♀️","person tipping hand":"💁","man tipping hand":"💁‍♂️","woman tipping hand":"💁‍♀️","person raising hand":"🙋","man raising hand":"🙋‍♂️","woman raising hand":"🙋‍♀️","deaf person":"🧏","deaf man":"🧏‍♂️","deaf woman":"🧏‍♀️","person bowing":"🙇","man bowing":"🙇‍♂️","woman bowing":"🙇‍♀️","person facepalming":"🤦","man facepalming":"🤦‍♂️","woman facepalming":"🤦‍♀️","person shrugging":"🤷","man shrugging":"🤷‍♂️","woman shrugging":"🤷‍♀️","health worker":"🧑‍⚕️","man health worker":"👨‍⚕️","woman health worker":"👩‍⚕️","student":"🧑‍🎓","man student":"👨‍🎓","woman student":"👩‍🎓","teacher":"🧑‍🏫","man teacher":"👨‍🏫","woman teacher":"👩‍🏫","judge":"🧑‍⚖️",	
+    "man judge":"👨‍⚖️","woman judge":"👩‍⚖️","farmer":"🧑‍🌾","man farmer":"👨‍🌾","woman farmer":"👩‍🌾","cook":"🧑‍🍳","man cook":"👨‍🍳","woman cook":"👩‍🍳","mechanic":"🧑‍🔧","man mechanic":"👨‍🔧","woman mechanic":"👩‍🔧","factory worker":"🧑‍🏭","man factory worker":"👨‍🏭","woman factory worker":"👩‍🏭","office worker":"🧑‍💼","man office worker":"👨‍💼","woman office worker":"👩‍💼","scientist":"🧑‍🔬","man scientist":"👨‍🔬","woman scientist":"👩‍🔬","technologist":"🧑‍💻","man technologist":"👨‍💻","woman technologist":"👩‍💻","singer":"🧑‍🎤","man singer":"👨‍🎤","woman singer":"👩‍🎤","artist":"🧑‍🎨","man artist":"👨‍🎨","woman artist":"👩‍🎨","pilot":"🧑‍✈️","man pilot":"👨‍✈️","woman pilot":"👩‍✈️","astronaut":"🧑‍🚀","man astronaut":"👨‍🚀","woman astronaut":"👩‍🚀","firefighter":"🧑‍🚒","man firefighter":"👨‍🚒","woman firefighter":"👩‍🚒","police officer":"👮","man police officer":"👮‍♂️","woman police officer":"👮‍♀️","detective":"🕵️","man detective":"🕵️‍♂️","woman detective":"🕵️‍♀️","guard":"💂","man guard":"💂‍♂️",	
+    "woman guard":"💂‍♀️","ninja":"🥷","construction worker":"👷","man construction worker":"👷‍♂️","woman construction worker":"👷‍♀️","person with crown":"🫅","prince":"🤴","princess":"👸","person wearing turban":"👳","man wearing turban":"👳‍♂️","woman wearing turban":"👳‍♀️","person with skullcap":"👲","woman with headscarf":"🧕","person in tuxedo":"🤵","man in tuxedo":"🤵‍♂️","woman in tuxedo":"🤵‍♀️","person with veil":"👰","man with veil":"👰‍♂️","woman with veil":"👰‍♀️","pregnant woman":"🤰","pregnant man":"🫃","pregnant person":"🫄","breast-feeding":"🤱","woman feeding baby":"👩‍🍼","man feeding baby":"👨‍🍼","person feeding baby":"🧑‍🍼","baby angel":"👼","santa claus":"🎅","mrs. claus":"🤶","mx claus":"🧑‍🎄","superhero":"🦸","man superhero":"🦸‍♂️","woman superhero":"🦸‍♀️","supervillain":"🦹","man supervillain":"🦹‍♂️","woman supervillain":"🦹‍♀️","mage":"🧙","man mage":"🧙‍♂️","woman mage":"🧙‍♀️","fairy":"🧚","man fairy":"🧚‍♂️","woman fairy":"🧚‍♀️",	
+    "vampire":"🧛","man vampire":"🧛‍♂️","woman vampire":"🧛‍♀️","merperson":"🧜","merman":"🧜‍♂️","mermaid":"🧜‍♀️","elf":"🧝","man elf":"🧝‍♂️","woman elf":"🧝‍♀️","genie":"🧞","man genie":"🧞‍♂️","woman genie":"🧞‍♀️","zombie":"🧟","man zombie":"🧟‍♂️","woman zombie":"🧟‍♀️","troll":"🧌","person getting massage":"💆","man getting massage":"💆‍♂️","woman getting massage":"💆‍♀️","person getting haircut":"💇","man getting haircut":"💇‍♂️","woman getting haircut":"💇‍♀️","person walking":"🚶","man walking":"🚶‍♂️","woman walking":"🚶‍♀️","person standing":"🧍","man standing":"🧍‍♂️","woman standing":"🧍‍♀️","person kneeling":"🧎","man kneeling":"🧎‍♂️","woman kneeling":"🧎‍♀️","person with white cane":"🧑‍🦯","man with white cane":"👨‍🦯","woman with white cane":"👩‍🦯","person in motorized wheelchair":"🧑‍🦼","man in motorized wheelchair":"👨‍🦼","woman in motorized wheelchair":"👩‍🦼","person in manual wheelchair":"🧑‍🦽","man in manual wheelchair":"👨‍🦽","woman in manual wheelchair":"👩‍🦽",	
+    "person running":"🏃","man running":"🏃‍♂️","woman running":"🏃‍♀️","woman dancing":"💃","man dancing":"🕺","person in suit levitating":"🕴️","people with bunny ears":"👯","men with bunny ears":"👯‍♂️","women with bunny ears":"👯‍♀️","person in steamy room":"🧖","man in steamy room":"🧖‍♂️","woman in steamy room":"🧖‍♀️","person in lotus position":"🧘","people holding hands":"🧑‍🤝‍🧑","women holding hands":"👭","woman and man holding hands":"👫","men holding hands":"👬","kiss":"💏","kiss: woman, man":"👩‍❤️‍💋‍👨","chopsticks":"🥢","fork and knife with plate":"🍽️","fork and knife":"🍴","spoon":"🥄","jar":"🫙","see-no-evil monkey":"🙈","hear-no-evil monkey":"🙉","speak-no-evil monkey":"🙊","collision":"💥","dizzy":"💫","sweat droplets":"💦","dashing away":"💨","monkey face":"🐵","monkey":"🐒","gorilla":"🦍","orangutan":"🦧","dog face":"🐶","dog":"🐕","guide dog":"🦮","service dog":"🐕‍🦺","poodle":"🐩","wolf":"🐺","fox":"🦊","raccoon":"🦝","cat face":"🐱",
   };
   
-  const prompt = document.getElementById('prompt');
   const box = document.getElementById('result');
   let searchResults = {};
 
-  const getRandomEmoji = () => emojis[getRandomInt(0, emojis.length)];
+  const getRandomEmojiFromKey = (emojiKeyList) => emojis[emojiKeyList[getRandomInt(0, emojiKeyList.length)]];
   const getOrdinal = (i) => i == 0 ? "first" : i == 1 ? "second" : i == 2 ? "third" : i == 3 ? "fourth" : i == 4 ? "fifth" : i == 5 ? "sixth" : '';
 
   let input;
-  let starter = document.getElementById('starter');
+  let result = document.getElementById('result');
 
   function setText(limit) {
     box.innerText = "";
-    starter.innerHTML = "";
+    result.innerHTML = "";
     if (!searchResults[0]) return;
     for (let i = 0; i < limit; i++) {
       if (!searchResults[i]) return;
@@ -44,19 +50,16 @@ window.addEventListener("load", () => {
       if (!word) return;
       word = word.toLowerCase();
       const found = Object.keys(emojis).filter(key => {return key.startsWith(word) || key.includes(word)});
-      console.log(found);
+      let x = getRandomEmojiFromKey(found);
+      console.log({word, found, x});
       if (found.length > 0) {
-        searchResults[index] = emojis[found[found.length-1]];
+        searchResults[index] = x
       }
     });
     if (input.length < 1) setText(0);
     else setText(keywords.length);
   }
   
-  prompt.oninput = (e) => {
-    debounce(onType(e), 1000);
-  }
-
 
   // SpeechRecognition code from MDN -- https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
   var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
@@ -64,16 +67,13 @@ window.addEventListener("load", () => {
   var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent;
 
   var recognition = new SpeechRecognition();
-  var colors = [ 'aqua' , 'azure' , 'beige', 'bisque', 'black', 'blue', 'brown', 'chocolate', 'coral', 'crimson', 'cyan', 'fuchsia', 'ghostwhite', 'gold', 'goldenrod', 'gray', 'green', 'indigo', 'ivory', 'khaki', 'lavender', 'lime', 'linen', 'magenta', 'maroon', 'moccasin', 'navy', 'olive', 'orange', 'orchid', 'peru', 'pink', 'plum', 'purple', 'red', 'salmon', 'sienna', 'silver', 'snow', 'tan', 'teal', 'thistle', 'tomato', 'turquoise', 'violet', 'white', 'yellow'];
   if (SpeechGrammarList) {
     // SpeechGrammarList is not currently available in Safari, and does not have any effect in any other browser.
     // This code is provided as a demonstration of possible capability. You may choose not to use it.
     var speechRecognitionList = new SpeechGrammarList();
-    // var grammar = '#JSGF V1.0; grammar colors; public <color> = ' + colors.join(' | ') + ' ;'
-    console.log(Object.keys(emojis).length)
-    console.log(colors.length)
-    // Limit is about 7.2k
-    const grammar = `#JSGF V1.0; grammar emojis; public <emoji> = ${Object.keys(emojis).join(" | ")};`
+    // console.log(Object.keys(emojis).length)
+    // Limit is about 560 items/7.2k characters
+    const grammar = `#JSGF V1.0; grammar emojis; public <emoji> = ${Object.keys(emojis).slice(560).join(" | ")};`
     speechRecognitionList.addFromString(grammar, 1);
     recognition.grammars = speechRecognitionList;
   }
@@ -100,7 +100,7 @@ window.addEventListener("load", () => {
     // We then return the transcript property of the SpeechRecognitionAlternative object
     var color = event.results[0][0].transcript;
     debounce(onType({target: {value: color}}), 1000);
-    diagnostic.textContent = 'Result received: ' + color + '.';
+    diagnostic.textContent = `"${color}"`;
     console.log('Confidence: ' + event.results[0][0].confidence);
   }
 
