@@ -24,6 +24,7 @@
     </body>
     <script>
         var ua = window.navigator.userAgent;
+        console.log(ua);
         const toMatch = [
             /Android/i,
             /webOS/i,
@@ -33,7 +34,8 @@
             /BlackBerry/i,
             /Windows Phone/i
         ];
-        if(toMatch.some((el)=>ua.match(el)) || ua.indexOf('Safari')!=-1 || ua.indexOf('Mozilla')!=-1){document.getElementById('alert').style.display='block'}
+        console.log(toMatch.some((el)=>ua.match(el)), ua.indexOf('Chrome')==-1);
+        if(toMatch.some((el)=>ua.match(el)) || ua.indexOf('Chrome')==-1){document.getElementById('alert').style.display='block'}
     </script>
     <script src="index.js"></script>
 </html>

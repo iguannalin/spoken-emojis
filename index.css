@@ -14,9 +14,11 @@ html {
   display: none;
   position: absolute;
   text-align: center;
-  top: 10%;
+  top: 20%;
   padding: 0 8px;
   font-size: 72px;
+  text-shadow: #858ebc -2px 2px 8px;
+  color: #f9faffde;
 }
 
 body {
@@ -32,7 +34,7 @@ body {
   cursor: pointer;
 }
 
-.prompt-box, .output, #alert {
+.prompt-box, .output {
   color: #f9faffde;
   flex-flow: column;
   align-items: center;
