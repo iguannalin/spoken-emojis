@@ -20,6 +20,20 @@
         <div>
             <p class="output">...click on me first...</p>
         </div>
+        <div id="alert">sorry this works only on desktop-mode Chrome browsers</div>
     </body>
+    <script>
+        var ua = window.navigator.userAgent;
+        const toMatch = [
+            /Android/i,
+            /webOS/i,
+            /iPhone/i,
+            /iPad/i,
+            /iPod/i,
+            /BlackBerry/i,
+            /Windows Phone/i
+        ];
+        if(toMatch.some((el)=>ua.match(el)) || ua.indexOf('Safari')!=-1 || ua.indexOf('Mozilla')!=-1){document.getElementById('alert').style.display='block'}
+    </script>
     <script src="index.js"></script>
 </html>

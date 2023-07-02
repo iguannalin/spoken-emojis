@@ -10,6 +10,15 @@ html {
   margin: auto 0;
 }
 
+#alert {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  padding: 0 8px;
+  font-size: 72px;
+}
+
 body {
   background-color: var(--main-bg-color);
   display: flex;
@@ -23,7 +32,7 @@ body {
   cursor: pointer;
 }
 
-.prompt-box, .output {
+.prompt-box, .output, #alert {
   color: #f9faffde;
   flex-flow: column;
   align-items: center;
