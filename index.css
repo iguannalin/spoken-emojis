@@ -14,7 +14,7 @@ html {
   display: none;
   position: absolute;
   text-align: center;
-  top: 20%;
+  top: 5%;
   padding: 0 8px;
   font-size: 72px;
   text-shadow: #858ebc -2px 2px 8px;
@@ -54,55 +54,7 @@ body {
   padding: 0 5%;
 }
 
-.content, .listContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-  align-items: center;
-}
-
 #result {
   text-align: center;
   font-size: 64px;
-}
-
-#starter {
-  font-size: 24px;
-  text-align: left;
-  margin: 0px 0;
-  font-style: italic;
-}
-
-ol {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: column wrap;
-  list-style: none;
-  padding: 0 8px;
-  margin: 4px;
-  width: 85%;
-  box-sizing: border-box;
-  padding: 0 5%;
-}
-
-li {
-  padding: 12px 0 4px;
-  font-size: 32px;
-  margin-left: 32px;
-  white-space: normal;
-  word-break: break-all;
-}
-
-li span {
-  font-size: 12px;
-  font-size: 20px;
-  padding-right: 16px;
-}
-
-span {
-  font-size: 20px;
-  font-style: italic;
-  margin-left: -32px;
 }
