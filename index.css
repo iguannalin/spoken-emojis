@@ -14,7 +14,7 @@ html {
   display: none;
   position: absolute;
   text-align: center;
-  top: 5%;
+  top: 2ch;
   padding: 0 8px;
   font-size: 72px;
   text-shadow: #858ebc -2px 2px 8px;
@@ -52,6 +52,14 @@ body {
   width: 90%;
   box-sizing: border-box;
   padding: 0 5%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 #result {

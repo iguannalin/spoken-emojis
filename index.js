@@ -27,12 +27,11 @@ window.addEventListener("load", () => {
   let result = document.getElementById('result');
 
   function setText(limit) {
+    console.log(limit, searchResults)
     box.innerText = "";
     result.innerHTML = "";
-    if (!searchResults[0]) return;
     for (let i = 0; i < limit; i++) {
-      if (!searchResults[i]) return;
-      box.innerText += searchResults[i];
+      if (searchResults[i]) box.innerText += searchResults[i];
     }
   }
 
@@ -50,7 +49,7 @@ window.addEventListener("load", () => {
       if (!word) return;
       word = word.toLowerCase();
       const found = Object.keys(emojis).filter(key => {return key.startsWith(word) || key.includes(word)});
-      // console.log({word, found});
+      console.log({word, found});
       if (found.length > 0) {
         searchResults[index] = getRandomEmojiFromKey(found);
       }
