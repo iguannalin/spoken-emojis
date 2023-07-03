@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
   let result = document.getElementById('result');
 
   function setText(limit) {
-    console.log(limit, searchResults)
+    // console.log(limit, searchResults)
     box.innerText = "";
     result.innerHTML = "";
     for (let i = 0; i < limit; i++) {
@@ -49,7 +49,7 @@ window.addEventListener("load", () => {
       if (!word) return;
       word = word.toLowerCase();
       const found = Object.keys(emojis).filter(key => {return key.startsWith(word) || key.includes(word)});
-      console.log({word, found});
+      // console.log({word, found});
       if (found.length > 0) {
         searchResults[index] = getRandomEmojiFromKey(found);
       }
@@ -69,7 +69,7 @@ window.addEventListener("load", () => {
     // SpeechGrammarList is not currently available in Safari, and does not have any effect in any other browser.
     // This code is provided as a demonstration of possible capability. You may choose not to use it.
     var speechRecognitionList = new SpeechGrammarList();
-    // console.log(Object.keys(emojis).length)
+    console.log(Object.keys(emojis).length)
     // Limit is about 560 items/7.2k characters
     const grammar = `#JSGF V1.0; grammar emojis; public <emoji> = ${Object.keys(emojis).slice(560).join(" | ")};`
     speechRecognitionList.addFromString(grammar, 1);
@@ -85,7 +85,7 @@ window.addEventListener("load", () => {
   document.body.onclick = function() {
     recognition.start();
     diagnostic.textContent = ".......";
-    console.log('Ready to receive a command.');
+    // console.log('Ready to receive a command.');
   }
 
   recognition.onresult = function(event) {
@@ -100,7 +100,7 @@ window.addEventListener("load", () => {
     var color = event.results[0][0].transcript;
     debounce(onType({target: {value: color}}), 1000);
     diagnostic.textContent = `"${color}"`;
-    console.log('Confidence: ' + event.results[0][0].confidence);
+    // console.log('Confidence: ' + event.results[0][0].confidence);
   }
 
   recognition.onspeechend = function() {
